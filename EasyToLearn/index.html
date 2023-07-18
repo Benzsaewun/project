@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EasyToLearn</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+<!-- navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light p-3 ">
+  <div class="container">
+      <a class="navbar-brand" href="index.html"><i class="bi bi-cpu-fill"></i> EasyToLearn</a>
+    
+      <div class="col-12 col-md-5 col-lg-5 ps-5" id="navbarSupportedContent">
+        <input class="form-control form-control-dark" type="search" placeholder="Search" aria-label="Search">
+      </div>
+
+      <div class="col-12 col-md-3 col-lg-2 d-flex align-item-center justify-content-md-end mt-3 mt-md-0">
+        <div class="me-3 mt-1">
+          <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+              data-bs-toggle="dropdown" aria-expanded="false">Menu</button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li><a href="index.html" class="dropdown-item">Home</a></li>
+                <li><a href="#footer" class="dropdown-item">About</a></li><hr>
+                <li><a href="html.html" class="dropdown-item">HTML</a></li>
+                <li><a href="css.html" class="dropdown-item">CSS</a></li>
+                <li><a href="hosting.html" class="dropdown-item">Hosting</a></li>
+              </ul>
+          </div>
+        </div>
+      </div>
+  </div>
+</nav>
+<!-- navbar -->
+
+<div class="container">
+  <div class="row">
+
+  <!-- sidebar -->
+  <div class="col-2 bg-light">
+    <nav>
+      <div class="position-sticky" id="sidebar_css">
+        <ul class="list-unstyled fw-normal pb-2 small">
+          <li><a href="index.html" class="bd-links-link d-inline-block rounded" id="buttonactive">Introduction</a></li>
+          <li><a href="html.html" class="bd-links-link d-inline-block rounded">HTML</a></li>
+          <li><a href="css.html" class="bd-links-link d-inline-block rounded">CSS</a></li>
+          <li><a href="hosting.html" class="bd-links-link d-inline-block rounded">Hosting</a></li>
+        </ul>
+
+        <li class="nav-item2"><a href="https://unsplash.com/" class="btn btn-dark btn-sm ms-3 mt-3" aria-current="page" target="_blank">
+          <span class="ml-2">Pictures</span></a></li>
+        <li class="nav-item2"><a href="https://icons.getbootstrap.com/" class="btn btn-warning btn-sm ms-3 mt-3" aria-current="page" target="_blank">
+          <span class="ml-2">Icons</span></a></li>
+        <li class="nav-item2"><a href="https://fonts.google.com/" class="btn btn-primary btn-sm ms-3 mt-3" aria-current="page" target="_blank">
+          <span class="ml-2">Fonts</span></a></li>
+        <li class="nav-item2"><a href="index.html#colors" class="btn btn-danger btn-sm ms-3 mt-3" aria-current="page" target="_blank">
+          <span class="ml-2">colors</span></a></li>
+        <li class="nav-item2"><a href="https://codepen.io/" class="btn btn-secondary btn-sm ms-3 mt-3" aria-current="page" target="_blank">
+          <span class="ml-2">Try Code</span></a></li>
+      </div>
+    </nav>
+  </div>
+  <!-- sidebar -->
+
+  <!-- content -->
+  <a href="#" style="border-radius: 25px; position: fixed; width: 50px; height: 50px; bottom: 50px; right: 100px;" href="#container"><i class="bi bi-arrow-up-circle-fill" style="font-size: 48px; color: rgb(232, 180, 251); position: relative; bottom: 12px; right: 11px;"></i></a>
+  <div class="col-8">
+          
+      <!-- content1 -->
+      <h1>Introduction</h1><hr>
+      <p>
+          HTML, CSS, and JavaScript are three of the core technologies used to create websites and web applications. <br><br>
+          HTML (Hypertext Markup Language) is the standard language used to create the structure and layout of web pages. It uses a system of tags and attributes to define the different elements on a page, such as headings, paragraphs, images, and links. <br><br>
+          CSS (Cascading Style Sheets) is used to add visual style and formatting to HTML pages. It allows you to control things like the font, color, spacing, and layout of elements on a page. <br><br>
+          JavaScript is a programming language that allows you to create interactive and dynamic web pages. It can be used to add things like form validation, animations, and interactive maps to a website. <br><br>
+          Learning HTML, CSS, and JavaScript can help you create and customize your own websites, and also give you a deeper understanding of how the web works. With a good grasp of these technologies, you will be able to create and edit web pages, and also create interactive and dynamic web pages. <br><br>
+          It's important to note that these technologies are a constantly evolving field, and it is recommended to stay updated with new advancements and features. <br>
+      </p>
+
+      <!-- content2 -->
+      <h2 id="Text Editors">Text Editors</h2><hr>
+      <p> 
+          There are many <small style="color: red;">text editors</small> that you can use to write HTML, CSS, and JavaScript code. Some popular options include: <br><br>
+          <a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer">Visual Studio Code<sup><span class="badge rounded-pill  bg-danger">recommended</span></sup></a> : A free and open-source text editor developed by Microsoft that has a wide range of features and is highly customizable. <small style="color: red;">Extensions</small>  recommended in Visual Studio Code
+          <li>Auto Close Tag</li>
+          <li>Auto Rename Tag</li>
+          <li>Highlight Matching</li>
+          <li>Live Server <small style="color: red;">(alt + L + O)</small></li>
+          <li>vscode-icons <small style="color: red;">(set file icon theme)</small></li>
+          <li>Prettier - Code formatting</li>
+          <li>Path Intellisense <small style="color: red;">(dropdown location files)</small></li>
+          <li>CSS Peek <small style="color: red;">(right click > Peek > Peek Definition or alt + F12)</small></li>
+          <li>Error Lens</li>
+          <li>ES7 React/Redux/GrapghQL</li>
+          <li>PHP Intelephense</li><br><br>
+          <p>
+          <a href="https://www.sublimetext.com/" target="_blank" rel="noopener noreferrer">Sublime Text</a>: A lightweight, customizable text editor that is popular among web developers.
+         <br><br>
+          <a href="https://github.blog/2022-06-08-sunsetting-atom/" target="_blank" rel="noopener noreferrer">Atom</a> : A free and open-source text editor developed by GitHub that has a large number of plugins and packages available. <br><br>
+        </p>
+      </p>
+
+      <!-- content3 -->
+      <h2 id="Online Web Development Platforms">Online Web Development Platforms</h2><hr>
+      <p>
+          There are several <small style="color: red;">online web development platforms</small> that allow you to write HTML, CSS, and JavaScript code and preview the results in real-time. Some popular options include: <br><br>
+          <a href="https://codepen.io/" target="_blank" rel="noopener noreferrer">CodePen<sup><span class="badge rounded-pill  bg-danger">recommended</span></sup></a> : A social development environment for front-end developers. It allows you to write HTML, CSS, and JavaScript code and see the results in real-time.<br><br>
+          <a href="https://jsfiddle.net/" target="_blank" rel="noopener noreferrer">JSFiddle</a> : A web development playground that allows you to write HTML, CSS, and JavaScript code and see the results in real-time. .<br><br>
+          <a href="https://replit.com/" target="_blank" rel="noopener noreferrer">Repl.it</a>: A web-based development environment that supports many programming languages, including HTML, CSS and JavaScript..<br><br>
+      </p>
+
+      <!-- content4 -->
+      <h2 id="Free CSS Templates">Free CSS Templates</h2><hr>
+      <p>
+         
+          <a href="https://www.free-css.com/" target="_blank" rel="noopener noreferrer">Free CSS<sup><span class="badge rounded-pill  bg-danger">recommended</span></sup></a><br><br>
+          <a href="https://www.tooplate.com/" target="_blank" rel="noopener noreferrer">Tooplate</a><br><br>
+          <a href="https://freebiesbug.com/" target="_blank" rel="noopener noreferrer">freebiesbug</a>
+          
+      </p>
+
+      <!-- content5 -->
+      <h2 id="Free Pictures">Free Pictures</h2><hr>
+        <p>
+            There are many websites that offer <small style="color: red;">free pictures</small>  that you can use for personal or commercial use. Some popular options include: <br><br> 
+            <a href="https://unsplash.com/" target="_blank" rel="noopener noreferrer">Unsplash<sup><span class="badge rounded-pill  bg-danger">recommended</span></sup></a><br>
+            <a href="https://www.pexels.com/" target="_blank" rel="noopener noreferrer">Pexels</a><br>
+            <a href="https://pixabay.com/" target="_blank" rel="noopener noreferrer">Pixabay</a><br><br>
+            Please note that while the images on these websites are typically free to use, you should always check the specific terms of use for each image, as some may have certain restrictions or require attribution.
+        </p>
+
+        <!-- content6 -->
+        <h2 id="Free Icons">Free Icons</h2><hr>
+        <p>
+            There are many websites that offer <small style="color: red;">free icons</small>  for use on websites and other projects. Some popular options include: <br><br> 
+            <a href="https://icons.getbootstrap.com/" target="_blank" rel="noopener noreferrer">Bootstrap Icons<sup><span class="badge rounded-pill  bg-danger">recommended</span></sup></a> go to install page > copy link CDN <br>
+            <a href="https://fontawesome.com/" target="_blank" rel="noopener noreferrer">font Awesome</a>: go to font awesome cnd > copy link CDN<br><br>
+            These websites offer a wide variety of icons in different styles and formats, and many of them offer both free and paid options. Some icons are also offered under open source licenses such as Creative Commons, which allows for free use with proper attribution.
+        </p>
+
+        <!-- content7 -->
+        <h2 id="Free Fonts">Free Fonts</h2><hr>
+        <p>
+            There are many websites that offer <small style="color: red;">free fonts</small> that you can use for personal or commercial use. Some popular options include: <br><br> 
+            <a href="https://fonts.google.com/" target="_blank" rel="noopener noreferrer">Google Fonts<sup><span class="badge rounded-pill  bg-danger">recommended</span></sup></a><br>
+            <a href="https://www.fontsquirrel.com/" target="_blank" rel="noopener noreferrer">Font Squirrel</a><br>
+            <a href="https://www.dafont.com/" target="_blank" rel="noopener noreferrer">DaFont</a><br><br>
+            Please note that while the fonts on these websites are typically free to use, you should always check the specific terms of use for each font, as some may have certain restrictions or require attribution.
+        </p>
+
+        <!-- content8 -->
+        <h2 id="colors">Colors</h2><hr>
+        <div class="row font-monospace">
+
+          <div class="col-md-4 mb-3">
+            <div class="p-3 mb-2 position-relative swatch-red">
+              <strong class="d-block">Red</strong>
+              #dc3545
+            </div>
+              <div class="p-3 bd-red-100">#f8d7da</div>
+              <div class="p-3 bd-red-200">#f1aeb5</div>
+              <div class="p-3 bd-red-300">#ea868f</div>
+              <div class="p-3 bd-red-400">#e35d6a</div>
+              <div class="p-3 bd-red-500">#dc3545</div>
+              <div class="p-3 bd-red-600">#b02a37</div>
+              <div class="p-3 bd-red-700">#842029</div>
+              <div class="p-3 bd-red-800">#58151c</div>
+          </div>
+  
+          <div class="col-md-4 mb-3">
+            <div class="p-3 mb-2 position-relative swatch-yellow">
+              <strong class="d-block">Yellow</strong>
+              #ffc107
+            </div>
+              <div class="p-3 bd-yellow-100">#fff3cd</div>
+              <div class="p-3 bd-yellow-200">#ffe69c</div>
+              <div class="p-3 bd-yellow-300">#ffda6a</div>
+              <div class="p-3 bd-yellow-400">#ffcd39</div>
+              <div class="p-3 bd-yellow-500">#ffc107</div>
+              <div class="p-3 bd-yellow-600">#cc9a06</div>
+              <div class="p-3 bd-yellow-700">#997404</div>
+              <div class="p-3 bd-yellow-800">#664d03</div>
+          </div>
+
+            <div class="col-md-4 mb-3">
+              <div class="p-3 mb-2 position-relative swatch-blue">
+                <strong class="d-block">Blue</strong>
+                #0d6efd
+              </div>
+                <div class="p-3 bd-blue-100">#cfe2ff</div>
+                <div class="p-3 bd-blue-200">#9ec5fe</div>
+                <div class="p-3 bd-blue-300">#6ea8fe</div>
+                <div class="p-3 bd-blue-400">#3d8bfd</div>
+                <div class="p-3 bd-blue-500">#0d6efd</div>
+                <div class="p-3 bd-blue-600">#0a58ca</div>
+                <div class="p-3 bd-blue-700">#084298</div>
+                <div class="p-3 bd-blue-800">#052c65</div>
+            </div>
+            
+            <div class="col-md-4 mb-3">
+              <div class="p-3 mb-2 position-relative swatch-orange">
+                <strong class="d-block">Orange</strong>
+                #fd7e14
+              </div>
+                <div class="p-3 bd-orange-100">#ffe5d0</div>
+                <div class="p-3 bd-orange-200">#fecba1</div>
+                <div class="p-3 bd-orange-300">#feb272</div>
+                <div class="p-3 bd-orange-400">#fd9843</div>
+                <div class="p-3 bd-orange-500">#fd7e14</div>
+                <div class="p-3 bd-orange-600">#ca6510</div>
+                <div class="p-3 bd-orange-700">#984c0c</div>
+                <div class="p-3 bd-orange-800">#653208</div>
+            </div>
+
+            <div class="col-md-4 mb-3">
+              <div class="p-3 mb-2 position-relative swatch-green">
+                <strong class="d-block">Green</strong>
+                #198754
+              </div>
+                <div class="p-3 bd-green-100">#d1e7dd</div>
+                <div class="p-3 bd-green-200">#a3cfbb</div>
+                <div class="p-3 bd-green-300">#75b798</div>
+                <div class="p-3 bd-green-400">#479f76</div>
+                <div class="p-3 bd-green-500">#198754</div>
+                <div class="p-3 bd-green-600">#146c43</div>
+                <div class="p-3 bd-green-700">#0f5132</div>
+                <div class="p-3 bd-green-800">#0a3622</div>
+            </div>
+            
+            <div class="col-md-4 mb-3">
+              <div class="p-3 mb-2 position-relative swatch-purple">
+                <strong class="d-block">Purple</strong>
+                #6f42c1
+              </div>
+                <div class="p-3 bd-purple-100">#e2d9f3</div>
+                <div class="p-3 bd-purple-200">#c5b3e6</div>
+                <div class="p-3 bd-purple-300">#a98eda</div>
+                <div class="p-3 bd-purple-400">#8c68cd</div>
+                <div class="p-3 bd-purple-500">#6f42c1</div>
+                <div class="p-3 bd-purple-600">#59359a</div>
+                <div class="p-3 bd-purple-700">#432874</div>
+                <div class="p-3 bd-purple-800">#2c1a4d</div>
+            </div>
+            
+            <div class="col-md-4 mb-3">
+              <div class="p-3 mb-2 position-relative swatch-pink">
+                <strong class="d-block">Pink</strong>
+                #d63384
+              </div>
+                <div class="p-3 bd-pink-100">#f7d6e6</div>
+                <div class="p-3 bd-pink-200">#efadce</div>
+                <div class="p-3 bd-pink-300">#e685b5</div>
+                <div class="p-3 bd-pink-400">#de5c9d</div>
+                <div class="p-3 bd-pink-500">#d63384</div>
+                <div class="p-3 bd-pink-600">#ab296a</div>
+                <div class="p-3 bd-pink-700">#801f4f</div>
+                <div class="p-3 bd-pink-800">#561435</div>
+            </div>
+                   
+            <div class="col-md-4 mb-3">
+            <div class="p-3 mb-2 position-relative swatch-gray-500">
+              <strong class="d-block">Gray</strong>
+              #adb5bd
+            </div>
+              <div class="p-3 bd-gray-100">#f8f9fa</div>
+              <div class="p-3 bd-gray-200">#e9ecef</div>
+              <div class="p-3 bd-gray-300">#dee2e6</div>
+              <div class="p-3 bd-gray-400">#ced4da</div>
+              <div class="p-3 bd-gray-500">#adb5bd</div>
+              <div class="p-3 bd-gray-600">#6c757d</div>
+              <div class="p-3 bd-gray-700">#495057</div>
+              <div class="p-3 bd-gray-800">#343a40</div>
+          </div>
+          
+          <div class="col-md-4 mb-3">
+            <div class="p-3 mb-2 bd-black text-white">
+              <strong class="d-block">Black</strong>
+              #000
+            </div>
+            <div class="p-3 mb-2 bd-white border">
+              <strong class="d-block">White</strong>
+              #fff
+            </div>
+          </div>
+          
+        </div>
+    </div>
+  <!-- content -->
+    
+  <!--navbar on this page  -->
+      <div class="col-2 bg-light">
+          <div >
+            <ul class="list-unstyled fw-normal pb-2 small">
+              <strong class="d-block h6 my-2 pb-2 border-bottom">On this page</strong>
+              <nav id="TableOfContents">
+                <ul>
+                  <li><a href="#Text Editors">Text Editors</a></li>
+                  <li><a href="#Online Web Development Platforms">Online Web</a></li>
+                  <li><a href="#Free CSS Templates">Free CSS Templates</a></li>
+                  <li><a href="#Free Pictures">Free Pictures</a></li>
+                  <li><a href="#Free Icons">Free Icons</a></li>
+                  <li><a href="#Free Fonts">Free Fonts</a></li>
+                  <li><a href="#colors">Colors</a></li>
+                <ul>
+              </nav>
+            </ul>
+          </div>
+      </div>
+    </div>
+  </div>
+  <!--navbar on this page  -->
+  
+  <!-- footer -->
+  <footer class="bd-footer py-2 mt-0 bg-light" id="footer">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-lg-3 mb-3">
+          <a class="d-inline-flex align-items-center mb-2 link-dark text-decoration-none" href="/" aria-label="Bootstrap">
+            <i class="bi bi-cpu-fill"></i>&nbsp;
+            <span class="fs-5">EasyToLearn</span>
+          </a>
+          <ul class="list-unstyled small text-muted">
+              <li class="mb-2">Designed and built with HTML, CSS, JavaScript and Bootstrap5.</li>
+              <li class="mb-2">Purpose</li>
+              <li class="mb-2">* Easy to Understand.</li>
+              <li class="mb-2">* Easy to Learn.</li>
+              <li class="mb-2">* Easy to Develop.</li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-lg-2 mb-3 offset-lg-1">
+          <h5>About me</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2">Piriyagorn</li>
+              <li class="mb-2">Web App Develop</li>
+              <li class="mb-2">Frontend</li>
+              <li class="mb-2">Backend</li>
+            </ul>
+        </div>
+
+        <div class="col-6 col-lg-2 mb-3">
+          <h5>Skills</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2">HTML</li>
+              <li class="mb-2">CSS</li>
+              <li class="mb-2">JavaScript</li>
+              <li class="mb-2">Bootstrap5</li>
+            </ul>
+        </div>
+
+        <div class="col-6 col-lg-2 mb-3">
+          <h5>Inspiration</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2"><a href="https://www.youtube.com/@PatiphanPhengpao" target="_blank" rel="noopener noreferrer"><i class="bi bi-youtube" style="color: red;"></i> Patiphan Phengpao </a></li>
+              <li class="mb-2"><a href="https://www.youtube.com/@borntodev" target="_blank" rel="noopener noreferrer"><i class="bi bi-youtube" style="color: red;"></i> BornToDev</a></li>
+              <li class="mb-2"><a href="https://www.w3schools.com/" target="_blank" rel="noopener noreferrer"><i class="bi bi-browser-chrome" style="color: blue;"></i> W3school</a></li>
+              <li class="mb-2"><a href="https://getbootstrap.com/" target="_blank" rel="noopener noreferrer"><i class="bi bi-browser-chrome" style="color: blue;"></i> bootstrap5</a></li>
+            </ul>
+        </div>
+
+        <div class="col-6 col-lg-2 mb-3">
+          <h5>Projects</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2"><a href="#"><i class="bi bi-cpu-fill" style="color: black;"></i> EasyToLearn</a></li>
+              <li class="mb-2"><a href="#"><i class="bi bi-film" style="color: black;"></i> MovieRanking</a></li>  
+            </ul>
+        </div>
+  </footer>
+  <!-- footer -->
+</body>
+</html>

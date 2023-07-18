@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EasyToLearn</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+<link rel="stylesheet" href="style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+<script src="https://unpkg.com/feather-icons"></script>
+
+</head>
+
+
+<!-- navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light p-3 ">
+    <div class="container">
+        <a class="navbar-brand" href="index.html"><i class="bi bi-cpu-fill"></i> EasyToLearn</a>
+       
+
+        <div class="col-12 col-md-5 col-lg-5 ps-5" id="navbarSupportedContent">
+        <input class="form-control form-control-dark" type="search" placeholder="Search" aria-label="Search">
+        </div>
+
+        <div class="col-12 col-md-3 col-lg-2 d-flex align-item-center justify-content-md-end mt-3 mt-md-0">
+        <div class="me-3 mt-1">
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                data-bs-toggle="dropdown" aria-expanded="false">Menu</button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li><a href="index.html" class="dropdown-item">Home</a></li>
+                    <li><a href="#footer" class="dropdown-item">About</a></li><hr>
+                    <li><a href="html.html" class="dropdown-item">HTML</a></li>
+                    <li><a href="css.html" class="dropdown-item">CSS</a></li>
+                    <li><a href="hosting.html" class="dropdown-item">Hosting</a></li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </div>
+</nav>
+<!-- navbar -->
+
+<div class="container">
+<div class="row">
+<!-- sidebar -->
+    <nav class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+      <div class="position-sticky" id="sidebar_css">
+        <ul class="list-unstyled fw-normal pb-2 small">
+           
+            <li><a href="index.html" class="bd-links-link d-inline-block rounded" >Introduction</a></li>
+            <li><a href="html.html" class="bd-links-link d-inline-block rounded">HTML</a></li>
+            <li><a href="css.html" class="bd-links-link d-inline-block rounded" id="buttonactive">CSS</a></li>
+            <li><a href="hosting.html" class="bd-links-link d-inline-block rounded">Hosting</a></li>
+        </ul>
+       
+        <li class="nav-item2"><a href="https://unsplash.com/" class="btn btn-dark btn-sm ms-3 mt-3" aria-current="page" target="_blank">
+            <span class="ml-2">Pictures</span></a></li>
+        <li class="nav-item2"><a href="https://icons.getbootstrap.com/" class="btn btn-warning btn-sm ms-3 mt-3" aria-current="page" target="_blank">
+            <span class="ml-2">Icons</span></a></li>
+        <li class="nav-item2"><a href="https://fonts.google.com/" class="btn btn-primary btn-sm ms-3 mt-3" aria-current="page" target="_blank">
+            <span class="ml-2">Fonts</span></a></li>
+            <li class="nav-item2"><a href="index.html#colors" class="btn btn-danger btn-sm ms-3 mt-3" aria-current="page" target="_blank">
+              <span class="ml-2">colors</span></a></li>
+        <li class="nav-item2"><a href="https://codepen.io/" class="btn btn-secondary btn-sm ms-3 mt-3" aria-current="page" target="_blank">
+            <span class="ml-2">Try Code</span></a></li>
+        
+      </div>
+    </nav>
+<!-- sidebar -->
+
+
+
+<!-- text -->
+<a href="#" style="border-radius: 25px; position: fixed; width: 50px; height: 50px; bottom: 50px; right: 100px;" href="#container"><i class="bi bi-arrow-up-circle-fill" style="font-size: 48px; color: rgb(232, 180, 251); position: relative; bottom: 12px; right: 11px;"></i></a>
+<main class="col-md-9 ml-sm-auto col-lg-9 px-md-4 py-4">
+    <div class="row">
+            
+        <!-- content1 -->
+        <h1>Introduction</h1><hr>
+        <p>
+            What is CSS?<br>
+CSS stands for Cascading Style Sheets<br>
+CSS describes how HTML elements are to be displayed on screen, paper, or in other media <br>
+CSS saves a lot of work. It can control the layout of multiple web pages all at once<br>
+External stylesheets are stored in CSS files <br>
+<h2 id="Text Editors">3 way of writing css</h2><hr>
+<img src="https://www.bitdegree.org/learn/storage/media/images/8c4493d3-110c-4a95-8b70-7626ce2d2f4e.jpg" style="border: 1px solid black;" alt="">
+        </p>
+
+        <div class="col-12 col-md-12 col-lg-12 mb-4 mb-lg-0">
+            <div class="card">
+            <h5 class="card-header">CSS Reset</h5>
+            
+            <div class="card-body">
+                <p class="card-title1">
+                    * { <br>
+                        margin: 0; <br>
+                        padding: 0; <br>
+                        box-sizing: border-box; <br>
+                    }
+                </p>
+            </div>
+            </div>
+        </div>
+
+        <h2 id="Text Editors">The Box Model</h2><hr>
+        <p> 
+            
+            <img src="https://media.gcflearnfree.org/content/5ef2084faaf0ac46dc9c10be_06_23_2020/box_model.png" alt="" height="400px" width="100%">
+            Explanation of the different parts:
+<li>Content - The content of the box, where text and images appear</li>
+<li>Padding - Clears an area around the content. The padding is transparent</li>
+<li> Border - A border that goes around the padding and content</li>    
+<li>Margin - Clears an area outside the border. The margin is transparent</li><br><br>
+<div class="col-12 col-md-12 col-lg-12 mb-4 mb-lg-0">
+    <div class="card">
+    <h5 class="card-header">The Box Model</h5>
+    <div style="
+        width: 300px;
+        border: 15px solid blue;
+        padding: 50px;
+        margin: 50px;
+      "></div>
+    <div class="card-body">
+        <p class="card-title1">
+            &lt;div <br>
+        style="<br>
+        width: 300px; <br>
+        border: 15px solid blue; <br>
+        padding: 50px; <br>
+        margin: 50px;"> <br>
+
+      &lt;/div>
+           
+        </p>
+    </div>
+    </div>
+</div>
+           
+        </p>
+        <h2 id="Text Editors">CSS Combinators</h2><hr>
+        <p> 
+            <img src="https://guinatal.github.io/images/posts/Combinators.png" alt="" height="400px" width="100%">
+            <li> descendant selector (space)</li><br>
+            <li> child selector (>)</li><br>
+            <li> adjacent sibling selector (+)</li><br>
+            <li> general sibling selector (~)</li>     
+        </p>
+
+        <p> 
+            <h2 id="Text Editors">CSS Position</h2><hr>
+            <img src="https://miro.medium.com/max/1400/1*x5xm9DVS6QouWCAeII9w8A.png" alt="" height="400px" width="100%">
+            <p>
+                position: static;
+(default.) <br>
+position: relative;
+(is positioned relative to its normal position.) <br>
+position: fixed;
+(it always stays in the same place even if the page is scrolled.) <br>
+position: absolute; (instead of positioned relative to the viewport, like fixed.)
+            </p>
+           
+           
+        </p>
+        <h2 id="Text Editors">CSS Display</h2><hr>
+        <p> 
+            <img src="https://i0.wp.com/www.tutorialbrain.com/wp-content/uploads/2019/06/CSS-Display.png?fit=474%2C379&ssl=1" alt="" height="400px" width="100%">
+
+            <div class="col-12 col-md-12 col-lg-12 mb-4 mb-lg-0">
+                <div class="card">
+                <h5 class="card-header">CSS Display</h5>
+                <div class="card-body">
+                    <p class="card-title1" style="color: green;">
+                        <div style="display: block; border: 1px solid red;">one</div>
+                        <div style="display: block; border: 1px solid red;">two</div>
+                        <div style="display: block; border: 1px solid red;">three</div><br>
+                        <div style="display: inline; border: 1px solid green;">one</div>
+                        <div style="display: inline; border: 1px solid green;">two</div>
+                        <div style="display: inline; border: 1px solid green;">three</div><br><br>
+                        <div style="display: inline-block; height: 40px; margin: 5px; border: 1px solid blue;">one</div>
+                        <div style="display: inline-block; height: 40px; margin: 5px; border: 1px solid blue;">two</div>
+                        <div style="display: inline-block; height: 40px; margin: 5px; border: 1px solid blue;">three</div><br>
+                         &lt;div style="display: block; border: 1px solid red;">one &lt;/div><br>
+                         &lt;div style="display: block; border: 1px solid red;">two &lt;/div><br>
+                         &lt;div style="display: block; border: 1px solid red;">three &lt;/div><br><br>
+                         &lt;div style="display: inline; border: 1px solid green;">one &lt;/div><br>
+                         &lt;div style="display: inline; border: 1px solid green;">two &lt;/div><br>
+                         &lt;div style="display: inline; border: 1px solid green;">three &lt;/div><br><br>
+                         &lt;div style="display: inline-block; height: 40px; margin: 5px; border: 1px solid blue;">one &lt;/div><br>
+                         &lt;div style="display: inline-block; height: 40px; margin: 5px; border: 1px solid blue;">two &lt;/div><br>
+                         &lt;div style="display: inline-block; height: 40px; margin: 5px; border: 1px solid blue;">three &lt;/div><br>
+                     
+                    </p>
+                </div>
+                </div>
+            </div>
+            <p></p>
+            <p></p>
+           
+        </div>  
+
+        <h2 id="Text Editors">CSS Backgrounds</h2><hr>
+        <p> 
+
+           
+<div class="col-12 col-md-12 col-lg-12 mb-4 mb-lg-0">
+    <div class="card">
+    <h5 class="card-header">CSS Backgrounds</h5>
+    <div style="background-color: red;">background-color</div>
+    <div style="background: blue;">background</div>
+    <div style="background: blue; opacity: 0.6;" >background + opacity</div>
+    <div style="background-image: url('https://images.unsplash.com/photo-1501854140801-50d01698950b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=975&q=80'); height: 250px;" >background-image</div>
+   
+    <div class="card-body">
+        <p class="card-title1">
+     &lt;div style="background-color: red;">background-color &lt;/div> <br>
+     &lt;div style="background: blue;">background &lt;/div><br>
+     &lt;div style="background: blue; opacity: 0.6;" >background + opacity &lt;/div><br>
+     &lt;div style="background-image: url(''); height: 250px;" >background-image &lt;/div>
+           
+           
+        </p>
+    </div>
+    </div>
+</div>
+<h2 id="Text Editors">CSS Align</h2><hr>
+<p> 
+    <div class="center" style="background: red; margin: auto;
+width: 100px; height: 100px;"></div><br>
+<li>To horizontally center a block element (like &lt;div>), use <small>margin: auto;</small> </li><br><br>
+
+    <div class="center" style="border: 2px solid red; text-align: center;
+width: 500px; margin: auto; ">center</div><br>
+<li>To just center the text inside an element, use <small>text-align: center;</small> </li><br><br>
+
+    <img src="https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="" height="200px" width="50%" style="display: block; margin-left: auto; margin-right: auto;"><br>
+     
+<li>To center an image, set <small>margin-left: auto;</small> and <small>margin-right: auto;</small> and <small>display: block;</small></li><br><br>
+          
+        </nav>
+    </div>  
+</div>   
+</div>  
+
+</main>
+    
+    <!-- footer -->
+    <footer class="bd-footer py-2 mt-0 bg-light" id="footer">
+        <div class="container py-5">
+        <div class="row">
+            <div class="col-lg-3 mb-3">
+            <a class="d-inline-flex align-items-center mb-2 link-dark text-decoration-none" href="/" aria-label="Bootstrap">
+              <i class="bi bi-cpu-fill"></i>&nbsp;
+                <span class="fs-5">EasyToLearn</span>
+            </a>
+            <ul class="list-unstyled small text-muted">
+                <li class="mb-2">Designed and built with HTML, CSS, JavaScript and Bootstrap5.</li>
+                <li class="mb-2">Purpose</li>
+                <li class="mb-2">* Easy to Understand.</li>
+                <li class="mb-2">* Easy to Learn.</li>
+                <li class="mb-2">* Easy to Develop.</li>
+            </ul>
+            </div>
+            <div class="col-6 col-lg-2 mb-3 offset-lg-1">
+                <h5>About me</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-2">Piriyagorn</li>
+                    <li class="mb-2">Web App Develop</li>
+                    <li class="mb-2">Frontend</li>
+                    <li class="mb-2">Backend</li>
+                </ul>
+                </div>
+                <div class="col-6 col-lg-2 mb-3">
+                <h5>Skills</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-2">HTML</li>
+                    <li class="mb-2">CSS</li>
+                    <li class="mb-2">JavaScript</li>
+                    <li class="mb-2">Bootstrap5</li>
+                </ul>
+                </div>
+                <div class="col-6 col-lg-2 mb-3">
+                    <h5>Inspiration</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="https://www.youtube.com/@PatiphanPhengpao" target="_blank" rel="noopener noreferrer"><small><i class="bi bi-youtube" style="color: red;"></i> Patiphan Phengpao</small> </a></li>
+                        <li class="mb-2"><a href="https://www.youtube.com/@borntodev" target="_blank" rel="noopener noreferrer"><i class="bi bi-youtube" style="color: red;"></i> BornToDev</a></li>
+                        <li class="mb-2"><a href="https://www.w3schools.com/" target="_blank" rel="noopener noreferrer"><i class="bi bi-browser-chrome" style="color: blue;"></i> W3school</a></li>
+                        <li class="mb-2"><a href="https://getbootstrap.com/" target="_blank" rel="noopener noreferrer"><i class="bi bi-browser-chrome" style="color: blue;"></i> bootstrap5</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2 mb-3">
+                    <h5>Projects</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#"><i class="bi bi-cpu-fill" style="color: black;"></i> EasyToLearn</a></li>
+                        <li class="mb-2"><a href="#"><i class="bi bi-film" style="color: black;"></i> MovieRanking</a></li>  
+                    </ul>
+                </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+</div>
+</body>
+</html>
